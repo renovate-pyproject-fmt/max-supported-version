@@ -1,0 +1,17 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"customManagers": [
+		{
+			"customType": "regex",
+			"managerFilePatterns": [
+				"/(^|/)pyproject\\.toml$/"
+			],
+			"matchStrings": [
+				"(?:^|\\n)\\s*max-supported-version\\s*=\\s*['\"]?(?<currentValue>[^'\"\\n\\s]+)['\"]?"
+			],
+			"depNameTemplate": "python",
+			"datasourceTemplate": "python",
+			"versioningTemplate": "pep440"
+		}
+	]
+}
