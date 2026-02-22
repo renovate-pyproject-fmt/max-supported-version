@@ -10,8 +10,8 @@
 				"(?:^|\\n)\\s*max-supported-version\\s*=\\s*['\"]?(?<currentValue>[^'\"\\n\\s]+)['\"]?"
 			],
 			"depNameTemplate": "python",
-			"datasourceTemplate": "python",
-			"versioningTemplate": "pep440"
+			"datasourceTemplate": "python-version",
+			"versioningTemplate": "python"
 		}
 	]
 }
