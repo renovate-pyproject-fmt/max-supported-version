@@ -7,8 +7,9 @@
 				"/(^|/)pyproject\\.toml$/"
 			],
 			"matchStrings": [
-				"(?:^|\\n)\\s*max-supported-version\\s*=\\s*['\"]?(?<currentValue>[^'\"\\n\\s]+)['\"]?"
+				"(?:^|\\n)\\s*max-supported-version\\s*=\\s*['\"]?(?<major>\\d+)\\.(?<minor>\\d+)(?:\\.\\d+)?['\"]?"
 			],
+			"currentValueTemplate": "{{{major}}}.{{{minor}}}",
 			"depNameTemplate": "python",
 			"datasourceTemplate": "python-version",
 			"versioningTemplate": "python"
