@@ -11,6 +11,7 @@
 			],
 			"currentValueTemplate": "{{{major}}}.{{{minor}}}",
 			"depNameTemplate": "python",
+			"depTypeTemplate": "max_supported_version",
 			"datasourceTemplate": "python-version",
 			"versioningTemplate": "python"
 		}
