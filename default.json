@@ -22,7 +22,8 @@
 				"max-supported-version"
 			],
 			"groupName": "max-supported-version",
-			"commitMessageTopic": "`max_supported_version` in pyproject.toml"
+			"commitMessageTopic": "`max_supported_version` in pyproject.toml",
+	        "extractVersion": "^(?<version>\\d+\\.\\d+)"
 		}
 	]
 }
