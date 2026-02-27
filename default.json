@@ -11,7 +11,7 @@
 			],
 			"currentValueTemplate": "{{{major}}}.{{{minor}}}",
 			"depNameTemplate": "python",
-			"depTypeTemplate": "max_supported_version",
+			"depTypeTemplate": "max-supported-version",
 			"datasourceTemplate": "python-version",
 			"versioningTemplate": "pep440"
 		}
@@ -19,9 +19,10 @@
 	"packageRules": [
 		{
 			"matchDepTypes": [
-				"max_supported_version"
+				"max-supported-version"
 			],
-			"groupName": "max_supported_version"
+			"groupName": "max-supported-version",
+			"commitMessageTopic": "`max_supported_version` in pyproject.toml"
 		}
 	]
 }
