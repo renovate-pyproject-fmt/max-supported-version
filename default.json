@@ -15,5 +15,13 @@
 			"datasourceTemplate": "python-version",
 			"versioningTemplate": "pep440"
 		}
+	],
+	"packageRules": [
+		{
+			"matchDepTypes": [
+				"max_supported_version"
+			],
+			"groupName": "max_supported_version"
+		}
 	]
 }
